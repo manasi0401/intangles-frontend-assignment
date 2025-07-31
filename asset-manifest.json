@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/intangles-frontend-assignment/static/css/main.077b9197.css",
-    "main.js": "/intangles-frontend-assignment/static/js/main.822ea14d.js",
+    "main.js": "/intangles-frontend-assignment/static/js/main.3c3db436.js",
     "static/js/453.2397638e.chunk.js": "/intangles-frontend-assignment/static/js/453.2397638e.chunk.js",
+    "static/media/data.csv": "/intangles-frontend-assignment/static/media/data.cc001506f366cfb223fb.csv",
     "index.html": "/intangles-frontend-assignment/index.html",
     "main.077b9197.css.map": "/intangles-frontend-assignment/static/css/main.077b9197.css.map",
-    "main.822ea14d.js.map": "/intangles-frontend-assignment/static/js/main.822ea14d.js.map",
+    "main.3c3db436.js.map": "/intangles-frontend-assignment/static/js/main.3c3db436.js.map",
     "453.2397638e.chunk.js.map": "/intangles-frontend-assignment/static/js/453.2397638e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.077b9197.css",
-    "static/js/main.822ea14d.js"
+    "static/js/main.3c3db436.js"
   ]
 }
