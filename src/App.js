@@ -7,12 +7,12 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    Papa.parse('/data.csv', {
+    Papa.parse(process.env.PUBLIC_URL + '/data.csv', {
       download: true,
       header: true,
       complete: (result) => {
         setData(result.data);
-      }
+      },
     });
   }, []);
 
