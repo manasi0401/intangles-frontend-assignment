@@ -1,6 +1,7 @@
 # Intangles Frontend Assignment
 
 This is a React.js application built for the Intangles frontend assignment.
+Deployed Link: https://manasi0401.github.io/intangles-frontend-assignment/
 
 ## Task Overview
 
