@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/intangles-frontend-assignment/static/css/main.077b9197.css",
+    "main.js": "/intangles-frontend-assignment/static/js/main.bea7c6ff.js",
+    "static/js/453.2397638e.chunk.js": "/intangles-frontend-assignment/static/js/453.2397638e.chunk.js",
+    "index.html": "/intangles-frontend-assignment/index.html",
+    "main.077b9197.css.map": "/intangles-frontend-assignment/static/css/main.077b9197.css.map",
+    "main.bea7c6ff.js.map": "/intangles-frontend-assignment/static/js/main.bea7c6ff.js.map",
+    "453.2397638e.chunk.js.map": "/intangles-frontend-assignment/static/js/453.2397638e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.077b9197.css",
+    "static/js/main.bea7c6ff.js"
+  ]
+}
