@@ -2,18 +2,22 @@ import React, { useEffect, useState } from 'react';
 import Papa from 'papaparse';
 import DataTable from './components/DataTable';
 import './App.css';
+import csvFile from './data.csv'; // ✅ NEW IMPORT
 
 function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    Papa.parse(process.env.PUBLIC_URL + '/data.csv', {
-      download: true,
-      header: true,
-      complete: (result) => {
-        setData(result.data);
-      },
-    });
+    fetch(csvFile)
+      .then((response) => response.text())
+      .then((csvText) => {
+        Papa.parse(csvText, {
+          header: true,
+          complete: (result) => {
+            setData(result.data);
+          }
+        });
+      });
   }, []);
 
   return (
